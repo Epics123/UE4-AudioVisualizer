@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AudioVisualizer",
+			"Path": "E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizer.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AudioVisualizerEditor",
+			"Path": "E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizerEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

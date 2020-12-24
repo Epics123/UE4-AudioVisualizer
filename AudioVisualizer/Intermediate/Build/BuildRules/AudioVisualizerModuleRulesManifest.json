@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizer\\AudioVisualizer.Build.cs",
+		"E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizer.Target.cs",
+		"E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizerEditor.Target.cs"
+	],
+	"EngineVersion": "4.24.3"
+}
