@@ -1,0 +1,9 @@
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\Definitions.AudioVisualizer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer/Public/EQControler.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer\Public\Cube.h
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Inc\AudioVisualizer\Cube.generated.h
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Inc\AudioVisualizer\EQControler.generated.h

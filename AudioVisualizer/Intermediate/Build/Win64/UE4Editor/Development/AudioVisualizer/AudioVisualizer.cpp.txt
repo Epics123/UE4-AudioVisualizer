@@ -1,2 +1,2 @@
-E:\Repos\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\Definitions.AudioVisualizer.h
-E:\Repos\AudioVisualizer\Source\AudioVisualizer\AudioVisualizer.h
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\Definitions.AudioVisualizer.h
+E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer\AudioVisualizer.h

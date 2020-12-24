@@ -31,16 +31,15 @@
 /wd4838
 /we4668
 /I .
-/I E:\Repos\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Inc\AudioVisualizer
-/I E:\Repos\AudioVisualizer\Source
+/I E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer\Private
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
@@ -230,6 +229,9 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I Runtime\AudioMixerCore\Public
+/I E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Inc\AudioVisualizer
+/I E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source
+/I E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -259,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\Repos\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\Repos\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\Repos\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\Repos\AudioVisualizer\Source\AudioVisualizer\AudioVisualizer.cpp"
-/FI"E:\Repos\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\Definitions.AudioVisualizer.h"
-/Fo"E:\Repos\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\AudioVisualizer.cpp.obj"
+/FI"E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer\AudioVisualizer.cpp"
+/FI"E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\Definitions.AudioVisualizer.h"
+/Fo"E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\AudioVisualizer.cpp.obj"
 /TP
 /GR-
 /W4

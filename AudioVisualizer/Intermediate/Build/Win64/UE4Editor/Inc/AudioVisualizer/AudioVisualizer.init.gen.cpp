@@ -21,8 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeAudioVisualizer_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xD18C0D41,
-				0x0CC96F42,
+				0x3413E4B1,
+				0xDD48F615,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

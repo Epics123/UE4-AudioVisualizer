@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\AudioVisualizer.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{3844D3EB-B456-4CBF-8873-D86F565E48FD}</UniqueIdentifier>
+      <UniqueIdentifier>{24E112B7-85B5-46F9-8343-4BF8F69871B5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AudioVisualizer.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{7283988A-7DB0-492E-A7F4-9C801BFE67D2}</UniqueIdentifier>
+      <UniqueIdentifier>{70B4346A-C3B1-44F7-808D-D52A51089548}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\AudioVisualizer">
-      <UniqueIdentifier>{48036323-1F21-44FE-99CF-15687528C7EC}</UniqueIdentifier>
+      <UniqueIdentifier>{14045118-3384-406E-8A13-CD70B2806037}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\AudioVisualizer\AudioVisualizer.Build.cs">
       <Filter>Source\AudioVisualizer</Filter>
@@ -41,5 +41,27 @@
     <ClInclude Include="..\..\Source\AudioVisualizer\AudioVisualizerGameModeBase.h">
       <Filter>Source\AudioVisualizer</Filter>
     </ClInclude>
+    <Filter Include="Source\AudioVisualizer\Private">
+      <UniqueIdentifier>{5518436A-10DD-45C6-80FC-16FFA37B2756}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AudioVisualizer\Private\EQControler.cpp">
+      <Filter>Source\AudioVisualizer\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\AudioVisualizer\Public">
+      <UniqueIdentifier>{FD02132C-0DBC-41F8-A75D-8AA33AC21AF1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\AudioVisualizer\Public\EQControler.h">
+      <Filter>Source\AudioVisualizer\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\AudioVisualizer\Public\Cube.h">
+      <Filter>Source\AudioVisualizer\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\AudioVisualizer\Private\Cube.cpp">
+      <Filter>Source\AudioVisualizer\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

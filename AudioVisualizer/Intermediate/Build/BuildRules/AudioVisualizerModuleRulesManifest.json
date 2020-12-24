@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizer\\AudioVisualizer.Build.cs",
-		"E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizer.Target.cs",
-		"E:\\Repos\\AudioVisualizer\\Source\\AudioVisualizerEditor.Target.cs"
+		"E:\\Repos\\UE4-AudioVisualizer\\AudioVisualizer\\Source\\AudioVisualizer\\AudioVisualizer.Build.cs",
+		"E:\\Repos\\UE4-AudioVisualizer\\AudioVisualizer\\Source\\AudioVisualizer.Target.cs",
+		"E:\\Repos\\UE4-AudioVisualizer\\AudioVisualizer\\Source\\AudioVisualizerEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
