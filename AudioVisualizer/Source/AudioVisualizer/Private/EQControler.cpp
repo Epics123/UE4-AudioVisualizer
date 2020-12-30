@@ -4,6 +4,7 @@
 #include "EQControler.h"
 
 #include "Kismet/KismetMathLibrary.h"
+#include "SoundVisualizationStatics.h"
 
 // Sets default values
 AEQControler::AEQControler()
@@ -22,6 +23,9 @@ AEQControler::AEQControler()
 // Called when the game starts or when spawned
 void AEQControler::BeginPlay()
 {
+	Super::BeginPlay();
+
+	SetActorTickEnabled(true);
 	SpawnGrid();
 	AudioComponent->Play();
 }
@@ -55,7 +59,6 @@ void AEQControler::SpawnGrid()
 // Called every frame
 void AEQControler::Tick(float DeltaTime)
 {
-	
-
+	Super::Tick(DeltaTime);
 }
 

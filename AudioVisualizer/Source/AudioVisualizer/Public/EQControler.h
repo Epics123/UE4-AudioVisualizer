@@ -32,8 +32,11 @@ public:
 	int Cols;
 	UPROPERTY(EditAnywhere)
 	float CubeDistance;
+
 	UPROPERTY(EditAnywhere)
 	TSubclassOf<class AActor> ActorToSpawn;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	TArray<AActor*> Actors;
 
 	UFUNCTION(BlueprintCallable)
 	void SpawnGrid();
@@ -41,10 +44,6 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
-protected:
-	UPROPERTY(VisibleAnywhere)
-	TArray<AActor*> Actors;
 
 public:	
 	// Called every frame

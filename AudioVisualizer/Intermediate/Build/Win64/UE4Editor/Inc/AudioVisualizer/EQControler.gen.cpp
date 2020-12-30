@@ -115,7 +115,7 @@ void EmptyLinkFunctionForGeneratedCodeEQControler() {}
 		{ "ModuleRelativePath", "Public/EQControler.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEQControler_Statics::NewProp_Actors = { "Actors", nullptr, (EPropertyFlags)0x0020080000020001, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEQControler, Actors), METADATA_PARAMS(Z_Construct_UClass_AEQControler_Statics::NewProp_Actors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEQControler_Statics::NewProp_Actors_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AEQControler_Statics::NewProp_Actors = { "Actors", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AEQControler, Actors), METADATA_PARAMS(Z_Construct_UClass_AEQControler_Statics::NewProp_Actors_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEQControler_Statics::NewProp_Actors_MetaData)) };
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEQControler_Statics::NewProp_Actors_Inner = { "Actors", nullptr, (EPropertyFlags)0x0000000000020000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEQControler_Statics::NewProp_ActorToSpawn_MetaData[] = {
@@ -197,7 +197,7 @@ void EmptyLinkFunctionForGeneratedCodeEQControler() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AEQControler, 2548981091);
+	IMPLEMENT_CLASS(AEQControler, 3491060268);
 	template<> AUDIOVISUALIZER_API UClass* StaticClass<AEQControler>()
 	{
 		return AEQControler::StaticClass();

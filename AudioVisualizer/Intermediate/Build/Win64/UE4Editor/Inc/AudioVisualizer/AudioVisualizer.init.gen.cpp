@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeAudioVisualizer_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0x379945D9,
+				0xFD5DFBBC,
 				0x7558E0AE,
 				METADATA_PARAMS(nullptr, 0)
 			};

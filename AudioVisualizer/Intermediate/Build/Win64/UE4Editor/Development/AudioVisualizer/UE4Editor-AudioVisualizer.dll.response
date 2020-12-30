@@ -66,6 +66,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
+"legacy_stdio_definitions.lib"
+"C:\Program Files\Epic Games\UE_4.24\Engine\Plugins\Runtime\SoundVisualizations\Intermediate\Build\Win64\UE4Editor\Development\SoundVisualizations\UE4Editor-SoundVisualizations.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\UE4Editor-Engine.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"

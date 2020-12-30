@@ -32,14 +32,18 @@
 /we4668
 /I .
 /I E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Source\AudioVisualizer\Private
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I ..\Plugins\Runtime\SoundVisualizations\Intermediate\Build\Win64\UE4Editor\Inc\SoundVisualizations
+/I ..\Plugins\Runtime\SoundVisualizations\Source
+/I ..\Plugins\Runtime\SoundVisualizations\Source\SoundVisualizations\Classes
+/I ..\Plugins\Runtime\SoundVisualizations\Source\SoundVisualizations\Public
 /I Runtime
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes

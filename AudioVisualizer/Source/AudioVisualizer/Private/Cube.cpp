@@ -14,3 +14,13 @@ ACube::ACube()
 
 	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cube"));
 }
+
+void ACube::BeginPlay()
+{
+	Super::BeginPlay();
+}
+
+void ACube::Tick(float DeltaTime)
+{
+	Super::Tick(DeltaTime);
+}
