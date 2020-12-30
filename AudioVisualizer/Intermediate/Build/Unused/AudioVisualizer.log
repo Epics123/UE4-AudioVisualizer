@@ -1,25 +1,16 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Repos\UE4-AudioVisualizer).
-  Creating makefile for AudioVisualizerEditor (no existing makefile)
   Parsing headers for AudioVisualizerEditor
     Running UnrealHeaderTool "E:\Repos\UE4-AudioVisualizer\AudioVisualizer\AudioVisualizer.uproject" "E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\AudioVisualizerEditor\Development\AudioVisualizerEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for AudioVisualizerEditor in 4.6311106 seconds
+  Reflection code generated for AudioVisualizerEditor in 4.6615657 seconds
   Building AudioVisualizerEditor...
   Using Visual Studio 2019 14.27.29111 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 13 actions with 16 processes...
-    [1/13] Default.rc2
-    [2/13] SharedPCH.Engine.ShadowErrors.cpp
-    [3/13] AudioVisualizer.init.gen.cpp
-    [4/13] AudioVisualizer.cpp
-    [5/13] Cube.cpp
-    [6/13] AudioVisualizerGameModeBase.cpp
-    [7/13] EQControler.cpp
-    [8/13] Cube.gen.cpp
-    [9/13] AudioVisualizerGameModeBase.gen.cpp
-    [10/13] EQControler.gen.cpp
-    [11/13] UE4Editor-AudioVisualizer.lib
+  Building 5 actions with 16 processes...
+    [1/5] EQControler.gen.cpp
+    [2/5] EQControler.cpp
+    [3/5] UE4Editor-AudioVisualizer.lib
        Creating library E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\UE4Editor-AudioVisualizer.lib and object E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\UE4Editor-AudioVisualizer.exp
-    [12/13] UE4Editor-AudioVisualizer.dll
+    [4/5] UE4Editor-AudioVisualizer.dll
        Creating library E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\UE4Editor-AudioVisualizer.suppressed.lib and object E:\Repos\UE4-AudioVisualizer\AudioVisualizer\Intermediate\Build\Win64\UE4Editor\Development\AudioVisualizer\UE4Editor-AudioVisualizer.suppressed.exp
-    [13/13] AudioVisualizerEditor.target
-  Total time in Parallel executor: 16.35 seconds
-  Total execution time: 22.66 seconds
+    [5/5] AudioVisualizerEditor.target
+  Total time in Parallel executor: 1.18 seconds
+  Total execution time: 6.33 seconds

@@ -26,7 +26,6 @@ void AEQControler::BeginPlay()
 	Super::BeginPlay();
 
 	SetActorTickEnabled(true);
-	SpawnGrid();
 	AudioComponent->Play();
 }
 
