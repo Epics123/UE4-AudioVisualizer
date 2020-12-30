@@ -13,34 +13,34 @@ AEQControler::AEQControler()
 
 	AudioComponent = CreateDefaultSubobject<UAudioComponent>(TEXT("Audio"));
 	AudioComponent->SetupAttachment(RootComponent);
+	AudioComponent->Activate(false);
 
 	NumCubes = 9;
 	CubeDistance = 200;
-
-	SpawnGrid();
 }
 
 // Called when the game starts or when spawned
 void AEQControler::BeginPlay()
 {
+	SpawnGrid();
 	AudioComponent->Play();
 }
 
 void AEQControler::SpawnGrid()
 {
-	for (int i = 0; i < NumCubes - 1; i++)
+	for (int i = 0; i < NumCubes; i++)
 	{
-		FVector spawnLoc = FVector();
-
-		spawnLoc.X = Rows * CubeDistance;
-		spawnLoc.Y = Cols * CubeDistance;
-
 		FActorSpawnParameters spawnParams;
+		spawnParams.Owner = this;
 		spawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-		ACube* cube;
-		ACube* actor = GetWorld()->SpawnActor<ACube>(cube, spawnLoc, GetActorRotation(), spawnParams);
-		Cubes.Add(cube);
+		FVector spawnLoc = this->GetActorLocation() + FVector(Rows * CubeDistance, Cols * CubeDistance, 0.0f);
+		
+		if (ActorToSpawn)
+		{
+			AActor* actor = GetWorld()->SpawnActor<AActor>(ActorToSpawn, spawnLoc, this->GetActorRotation(), spawnParams);
+			Actors.Add(actor);
+		}
 
 		Rows++;
 

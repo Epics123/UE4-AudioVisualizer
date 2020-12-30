@@ -4,6 +4,7 @@
 #include "Cube.h"
 
 #include "UObject/ConstructorHelpers.h"
+#include "Engine/StaticMesh.h"
 
 // Sets default values
 ACube::ACube()
@@ -11,23 +12,5 @@ ACube::ACube()
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	StaticMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cube"));
-
-	static ConstructorHelpers::FObjectFinder<UStaticMesh>CubeAsset(TEXT("StaticMesh'/Game/Meshes/Cube.Cube'"));
-	StaticMesh->SetStaticMesh(CubeAsset.Object);
+	StaticMeshComponent = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Cube"));
 }
-
-// Called when the game starts or when spawned
-void ACube::BeginPlay()
-{
-	
-	
-}
-
-// Called every frame
-void ACube::Tick(float DeltaTime)
-{
-	
-
-}
-

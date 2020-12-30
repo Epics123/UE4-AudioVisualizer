@@ -33,9 +33,9 @@ void EmptyLinkFunctionForGeneratedCodeCube() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StaticMesh_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_StaticMeshComponent_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_StaticMesh;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_StaticMeshComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -51,15 +51,15 @@ void EmptyLinkFunctionForGeneratedCodeCube() {}
 	};
 #endif
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACube_Statics::NewProp_StaticMesh_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACube_Statics::NewProp_StaticMeshComponent_MetaData[] = {
 		{ "Category", "Static Mesh" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Cube.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACube_Statics::NewProp_StaticMesh = { "StaticMesh", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACube, StaticMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACube_Statics::NewProp_StaticMesh_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACube_Statics::NewProp_StaticMesh_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACube_Statics::NewProp_StaticMeshComponent = { "StaticMeshComponent", nullptr, (EPropertyFlags)0x00100000000a000d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ACube, StaticMeshComponent), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACube_Statics::NewProp_StaticMeshComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACube_Statics::NewProp_StaticMeshComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACube_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACube_Statics::NewProp_StaticMesh,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACube_Statics::NewProp_StaticMeshComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACube_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACube>::IsAbstract,
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeCube() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACube, 3021358947);
+	IMPLEMENT_CLASS(ACube, 899684337);
 	template<> AUDIOVISUALIZER_API UClass* StaticClass<ACube>()
 	{
 		return ACube::StaticClass();

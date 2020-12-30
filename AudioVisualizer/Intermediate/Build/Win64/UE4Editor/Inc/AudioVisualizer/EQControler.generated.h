@@ -14,8 +14,28 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define AUDIOVISUALIZER_EQControler_generated_h
 
 #define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_SPARSE_DATA
-#define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_RPC_WRAPPERS
-#define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSpawnGrid) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnGrid(); \
+		P_NATIVE_END; \
+	}
+
+
+#define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSpawnGrid) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SpawnGrid(); \
+		P_NATIVE_END; \
+	}
+
+
 #define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAEQControler(); \
@@ -58,7 +78,10 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AEQControler); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AEQControler)
 
 
-#define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_PRIVATE_PROPERTY_OFFSET
+#define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Actors() { return STRUCT_OFFSET(AEQControler, Actors); }
+
+
 #define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_14_PROLOG
 #define AudioVisualizer_Source_AudioVisualizer_Public_EQControler_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

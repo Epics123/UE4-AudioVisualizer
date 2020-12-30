@@ -24,23 +24,27 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Audio")
 	UAudioComponent* AudioComponent;
 
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere)
 	int NumCubes;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere)
 	int Rows;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere)
 	int Cols;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditAnywhere)
 	float CubeDistance;
+	UPROPERTY(EditAnywhere)
+	TSubclassOf<class AActor> ActorToSpawn;
+
+	UFUNCTION(BlueprintCallable)
+	void SpawnGrid();
 
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	void SpawnGrid();
-
 protected:
-	TArray<ACube*> Cubes;
+	UPROPERTY(VisibleAnywhere)
+	TArray<AActor*> Actors;
 
 public:	
 	// Called every frame
